@@ -517,26 +517,31 @@ python run_pipeline.py \
     --use-class-weights \
     --model resnet50_attention
 Visualizations
-Training Curves
-https://results/training_curves.png
+Training Graphs
+<img width="1789" height="490" alt="resnetTrainingGraph" src="https://github.com/user-attachments/assets/7452c0cb-5e16-4216-abe8-f2ed2206dfd5" />
 
 Attention Maps
-https://results/attention_maps.png
+
+<img width="1568" height="1573" alt="atten" src="https://github.com/user-attachments/assets/1116a9c6-1200-4646-858d-670deb68154f" />
 
 Confusion Matrix
-https://results/confusion_matrix.png
+
+<img width="1345" height="490" alt="resnetPerformanceTestData" src="https://github.com/user-attachments/assets/97e06eed-9570-439c-85d9-09688e5a6f93" />
 
 ROC Curve
-https://results/roc_curve.png
+
+<img width="706" height="552" alt="roc" src="https://github.com/user-attachments/assets/8c67caeb-4709-4840-8716-b3fbce0ccc2b" />
 
 Key Findings
 Spatial Attention Improves Performance: +2.6% accuracy and +5.1% specificity
 
-Class Weights Essential: Mitigates imbalance impact
+<img width="1189" height="495" alt="resenet50Vsattentation" src="https://github.com/user-attachments/assets/5e590908-7c50-45a4-8e04-461f2b58a269" />
+ights Essential: Mitigates imbalance impact
 
 Structured Prompting Best: Most clinically useful reports
-
-Attention Maps Interpretable: Model focuses on lung regions
+Miss Classification cases
+<img width="1533" height="788" alt="Failure Cases" src="https://github.com/user-attachments/assets/ce03d50a-99a4-4933-b032-e1cbe2adec5b" />
+on Maps Interpretable: Model focuses on lung regions
 
 VLM Complements CNN: Different error patterns, good for cross-validation
 
