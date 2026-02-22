@@ -1,0 +1,172 @@
+============================================================
+🏥 PNEUMONIA DETECTION SYSTEM
+============================================================
+
+📤 Upload a chest X-ray to check for pneumonia
+⏱️  Analysis takes 2-3 minutes
+📋 This system specifically detects pneumonia vs normal findings
+
+pneumonia1.jpg
+pneumonia1.jpg(image/jpeg) - 10867 bytes, last modified: 2/22/2026 - 100% done
+Saving pneumonia1.jpg to pneumonia1.jpg
+
+============================================================
+📂 Processing: pneumonia1.jpg
+============================================================
+⏳ Loading X-ray image...
+⏳ MedGemma analyzing for pneumonia...
+  ✓ Image resized from (356, 357) to (356, 357)
+Passing `generation_config` together with generation-related arguments=({'max_new_tokens'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+Both `max_new_tokens` (=200) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+✅ Analysis complete in 20.5 seconds
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+📋 PNEUMONIA ASSESSMENT: ⚠️ PNEUMONIA DETECTED ⚠️
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+📋 DETAILED RADIOLOGY REPORT
+------------------------------------------------------------
+**Pneumonia Detection Assessment**
+
+**Patient Information:** (Not provided)
+
+**X-ray Image Quality:** Blurry
+
+**Pneumonia Assessment:**
+
+1. **Is pneumonia present?** Uncertain
+2. **What specific findings support this?** 
+   - No clear consolidation
+   - No clear infiltrates
+   - No air bronchograms
+   - Insufficient image quality to make a definitive assessment
+3. **Which lung regions are affected?** Not enough information to determine the affected lung regions
+4. **How confident are you in this assessment?** Low
+5. **Are there any other findings not related to pneumonia?** Insufficient image quality to identify any other findings
+
+**Recommendations:**
+
+- Obtain a high-quality chest X-ray image for further evaluation
+- Consider repeating the X-ray in a few days to assess for any changes
+- Consult with a qualified radiologist for a definitive diagnosis
+- Clinical correlation with patient symptoms and medical history is essential for accurate diagnosis
+
+**Disclaimer:** This assessment is for educational purposes only and should not be used as a substitute for a qualified radiologist's interpretation. A definitive diagnosis can only be made by a qualified medical professional.
+------------------------------------------------------------
+
+☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+🔬 RAW PNEUMONIA ANALYSIS
+☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+Based on the provided chest X-ray image, I can assess for pneumonia.
+
+1.  **Is pneumonia present?** Uncertain
+2.  **What specific findings support this?** There are no clear findings suggestive of pneumonia, such as consolidation, infiltrates, or air bronchograms. The image is too blurry to make a d...
+
+⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️
+⚕️ CLINICAL RECOMMENDATION: Patient should be evaluated for pneumonia treatment.
+⚕️ Consider: antibiotics, further imaging, or hospitalization if severe.
+⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️
+
+============================================================
+📊 SUMMARY: ⚠️ PNEUMONIA DETECTED ⚠️
+⏱️  Total time: 20.5 seconds
+============================================================
+
+------------------------------------------------------------
+Analyze another X-ray? (y/n): y
+
+
+============================================================
+🏥 PNEUMONIA DETECTION SYSTEM
+============================================================
+
+📤 Upload a chest X-ray to check for pneumonia
+⏱️  Analysis takes 2-3 minutes
+📋 This system specifically detects pneumonia vs normal findings
+
+misclassifiedbyCNN_Normal_Pred_Pneumonia2.jpg
+misclassifiedbyCNN_Normal_Pred_Pneumonia2.jpg(image/jpeg) - 12921 bytes, last modified: 2/22/2026 - 100% done
+Saving misclassifiedbyCNN_Normal_Pred_Pneumonia2.jpg to misclassifiedbyCNN_Normal_Pred_Pneumonia2.jpg
+
+============================================================
+📂 Processing: misclassifiedbyCNN_Normal_Pred_Pneumonia2.jpg
+============================================================
+⏳ Loading X-ray image...
+⏳ MedGemma analyzing for pneumonia...
+  ✓ Image resized from (350, 356) to (350, 356)
+Setting `pad_token_id` to `eos_token_id`:1 for open-end generation.
+Both `max_new_tokens` (=200) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+✅ Analysis complete in 18.5 seconds
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+📋 PNEUMONIA ASSESSMENT: ⚠️ PNEUMONIA DETECTED ⚠️
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+📋 DETAILED RADIOLOGY REPORT
+------------------------------------------------------------
+**Pneumonia Detection Specialist's Report**
+
+**Case Number:** [Insert Case Number]
+
+**Patient Information:** [Insert Patient Information]
+
+**Chest X-ray Analysis:**
+
+**1. Pneumonia Presence:** Uncertain
+
+**Reasoning:** The provided chest X-ray image is too blurry to confidently assess for pneumonia. The characteristic features of pneumonia, such as consolidation, infiltrates, or air bronchograms, are not evident in this image.
+
+**2. Specific Findings Supporting this Assessment:**
+
+* No clear consolidation or infiltrates are visible.
+* No air bronchograms are present.
+* The image quality is poor, making it difficult to assess for other findings.
+
+**3. Affected Lung Regions:** Unable to Determine
+
+**Reasoning:** Due to the poor image quality, it is challenging to determine which lung regions are affected.
+
+**4. Confidence Level:** Low
+
+**Reasoning:** The poor image quality and lack of characteristic features of pneumonia make it difficult to confidently assess for pneumonia.
+
+**5. Other Findings Not Related to Pneumonia:** Unable to Assess
+
+**Reasoning:** The poor image quality prevents a thorough assessment for other findings not related to pneumonia.
+
+**Recommendations:**
+
+* Obtain a new chest X-ray with improved image quality to reassess for pneumonia.
+* Consider additional imaging modalities, such as computed tomography (CT) scans, to better evaluate the lungs.
+* Clinical correlation with patient symptoms and medical history is essential to determine the likelihood of pneumonia.
+
+**Signature:** [Insert Signature]
+**Date:** [Insert Date]
+------------------------------------------------------------
+
+☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+🔬 RAW PNEUMONIA ANALYSIS
+☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+Based on the provided chest X-ray image, here's an analysis:
+
+1.  **Is pneumonia present?** Uncertain
+
+2.  **What specific findings support this?** There are no clear findings suggestive of pneumonia, such as consolidation, infiltrates, or air bronchograms. The image is too blurry and lacks the char...
+
+⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️
+⚕️ CLINICAL RECOMMENDATION: Patient should be evaluated for pneumonia treatment.
+⚕️ Consider: antibiotics, further imaging, or hospitalization if severe.
+⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️⚕️
+
+============================================================
+📊 SUMMARY: ⚠️ PNEUMONIA DETECTED ⚠️
+⏱️  Total time: 18.5 seconds
+============================================================
+
+------------------------------------------------------------
+Analyze another X-ray? (y/n): n
+
+👋 Thank you for using Pneumonia Detection System!
